@@ -1,2 +1,2 @@
 # Data-Structure-JAVA
-大一时学过数据结构C语言版，现在后端学的差不多了，我想回过头来重新学习一下数据结构，不过因为我现在主要用java语言，因此我决定在每章，都用java里把每个知识点都写出来。
+A learned C language version of the data structure, the back end now learn about, I want to learn about the data structure to come back, but because I am now mainly used java language, so I decided in every chapter, use java to write out each point of knowledge.
