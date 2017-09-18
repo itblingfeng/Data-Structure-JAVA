@@ -1,3 +1,5 @@
+package com.blingfeng.sort;
+
 import java.util.Arrays;
 
 class ArrayBubb{
@@ -40,6 +42,7 @@ public class BubbleSort {
     /*冒泡排序*/
 
     public static void main(String[] args){
+        long start = System.currentTimeMillis();
          ArrayBubb arrayBubb = new ArrayBubb(10);
          arrayBubb.insert(10l);
          arrayBubb.insert(20l);
@@ -49,7 +52,8 @@ public class BubbleSort {
         arrayBubb.sort();
         Long[] array = arrayBubb.getArray();
         System.out.println(Arrays.toString(array));
-
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);
     }
 
 }

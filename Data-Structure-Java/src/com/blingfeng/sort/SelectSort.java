@@ -1,3 +1,5 @@
+package com.blingfeng.sort;
+
 import java.util.Arrays;
 
 class ArraySelect {
@@ -40,6 +42,7 @@ class ArraySelect {
 
 public class SelectSort {
     public static void main(String [] args){
+        long start = System.currentTimeMillis();
         ArraySelect arraySelect = new ArraySelect(10);
         arraySelect.insert(21l);
         arraySelect.insert(28l);
@@ -48,5 +51,7 @@ public class SelectSort {
         arraySelect.sort();
         Long[] array = arraySelect.getArray();
         System.out.println(Arrays.toString(array));
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);
     }
 }
