@@ -7,6 +7,7 @@ class StackArray {
     private int top = -1;
     //    栈
     private long[] stack;
+
     //    初始化
     public StackArray(int maxSize) {
         this.maxSize = maxSize;
@@ -44,15 +45,15 @@ class StackArray {
 }
 
 public class Stack {
-       public static void main(String[] args){
-           StackArray stackArray = new StackArray(5);
-           stackArray.push(20);
-           stackArray.push(10);
-           stackArray.push(70);
-           stackArray.push(80);
-           stackArray.push(80);
-           while(!stackArray.isEmpty()){
-               System.out.println(stackArray.pop());
-           }
-       }
+    public static void main(String[] args) {
+        StackArray stackArray = new StackArray(5);
+        stackArray.push(20);
+        stackArray.push(10);
+        stackArray.push(70);
+        stackArray.push(80);
+        stackArray.push(80);
+        while (!stackArray.isEmpty()) {
+            System.out.println(stackArray.pop());
+        }
+    }
 }
