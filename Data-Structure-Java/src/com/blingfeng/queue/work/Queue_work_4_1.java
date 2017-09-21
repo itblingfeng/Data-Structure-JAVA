@@ -53,7 +53,7 @@ class QueueArray {
     }
 
     /*    编程作业4.1  */
-    public void printQueue() {
+    public void display() {
         if (rear < front) {
             for (int i = front; i < queue.length; i++) {
                 System.out.print(queue[i] + " ");
@@ -84,7 +84,7 @@ public class Queue_work_4_1 {
         queueArray.insert(32);
         queueArray.insert(21);
         long[] queue = queueArray.getQueue();
-        queueArray.printQueue();
+        queueArray.display();
 
     }
 }

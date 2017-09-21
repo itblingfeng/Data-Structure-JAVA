@@ -35,10 +35,14 @@ class Queue{
             front = -1;
         front++;
     }
-    public void removeRight(){
-         if(rear == 0)
-             rear = maxSize;
-         rear--;
+    public long removeRight() {
+        if (rear == 0) {
+            rear = maxSize;
+            rear--;
+            return queue[rear];
+        }
+        rear--;
+        return queue[rear+1];
     }
     public boolean isEmpty(){
          return rear - front !=0;
