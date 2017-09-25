@@ -1,5 +1,7 @@
 package com.blingfeng.link;
 
+import java.util.LinkedList;
+
 class Link4 {
     public double data;
     public Link4 next;
